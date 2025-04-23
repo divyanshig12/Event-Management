@@ -1,0 +1,48 @@
+.event-list-scroll {
+  max-height: 300px;
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+/* Sticky table headers */
+.event-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f0f0f0;
+  z-index: 1;
+}
+
+/* Smaller table styles */
+.event-table {
+  width: max-content; /* enable horizontal scroll if needed */
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.event-table th,
+.event-table td {
+  padding: 6px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+/* Button styles */
+.edit-btn,
+.delete-btn,
+.save-btn,
+.cancel-btn {
+  margin-right: 5px;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn { background-color: #ffc107; }
+.delete-btn { background-color: #dc3545; color: #fff; }
+.save-btn { background-color: #28a745; color: #fff; }
+.cancel-btn { background-color: #6c757d; color: #fff; }

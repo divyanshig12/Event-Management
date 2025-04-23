@@ -1,0 +1,44 @@
+.chatbot-container {
+    max-width: 300px;  /* Reduce width for a smaller chatbot */
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reduce chatbot frame size */
+  .react-chatbot-kit-chat-container {
+    max-width: 300px; /* Adjust chatbot width */
+    font-size: 14px; /* Reduce font size */
+  }
+  
+  /* Adjust message bubble size */
+  .react-chatbot-kit-chat-message {
+    font-size: 13px; /* Smaller text for messages */
+    padding: 8px 12px;
+  }
+  
+  /* Reduce header font size */
+  .chatbot-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Back button */
+  .back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .back-btn:hover {
+    background: #0056b3;
+  }
+  

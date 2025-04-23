@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+  padding: 5px; /* Reduced padding from 10px to 5px */
+  background: #282c34;
+  color: white;
+  position: fixed; /* Fixed at the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-size: 14px; /* Slightly smaller font */
+}
